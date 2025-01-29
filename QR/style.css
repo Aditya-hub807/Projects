@@ -3,11 +3,13 @@
   margin:0;
   box-sizing: border-box;
   font-family: outfit;
+}
+
+body{
   background-color: hsl(212, 45%, 89%);
 }
 
 .contain{
-  border:3px gray;
   height:800px;
   width:500px;
   margin:25% auto;
@@ -18,7 +20,7 @@
 }
 
 .qr{
-  padding:20px;
+  padding:20px 20px;
 }
 
 img{
@@ -37,7 +39,7 @@ img{
 h1{
   width:500px;
   text-align: center;
-  padding:20px;
+  padding:20px 20px;
   font-size: 35px;
   font-weight: 700;
 }
