@@ -8,14 +8,17 @@
 
 body{
   background-color: hsl(0, 0%, 8%);
+  display: grid;
+  place-items: center;
+  min-height:100vh;
 }
 
 .container{
   max-width:360px;
-  height:600px;
-  margin:25px auto;
+  min-height:600px;
   background-color: hsl(0, 0%, 12%);
-  border-radius: 7px;
+  border-radius: 8px;
+  padding:0 2.5rem;
 }
 
 .avatar{
