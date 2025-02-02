@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  color:hsl(0, 0%, 100%);
+}
+
+.container{
+  max-width:380px;
+  height:640px;
+  margin:25px auto;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0 0 9px hsl(215, 32%, 27%);
+}
+
+.space{
+  padding:20px;
+  position:relative;
+}
+
+.space img{
+  width:100%;
+  object-fit: contain;
+  height:50%;
+  border-radius:16px;
+}
+
+.icon{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  top:27%;
+  left:48.5%;
+  opacity:0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.icon:hover{
+  cursor:pointer;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 1;
+}
+
+h2:hover{
+  color:hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.text{
+  padding:20px;
+  margin-top:-25px;
+}
+
+.text p{
+  padding-top:20px;
+  font-size:23px;
+  width:350px;
+}
+
+.flex{
+  padding-top:22px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.ether img, .clock img{
+  vertical-align: top;
+  font-size:18px;
+}
+
+.ether{
+  color:hsl(178, 100%, 50%);
+}
+
+.hollow{
+  width:340px;
+  height:1px;
+  background-color:hsl(215, 32%, 27%);
+  margin-left:20px;
+}
+
+.creator{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:10px 0 0 20px;
+}
+
+.border{
+  outline:white;
+  padding-right:10px;
+}
+
+.border img{
+  width:100%;
+  height:30px;
+  object-fit: contain;
+}
+
+.creator p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.creation{
+  color:hsl(215, 51%, 70%);
+}
+
+.name:hover{
+  cursor: pointer;
+  color:hsl(178, 100%, 50%);
+}
+
+.maker{
+  font-size: 12px;
+  text-align: center;
+  padding-top:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.provider,.receiver{
+  text-decoration: none;
+  color:cyan
+}
+
+.provider:hover,.receiver:hover{
+  color:white;
+}
