@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color:white;
+  font-family: Inter;
+}
+
+body{
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container{
+  max-width:360px;
+  height:600px;
+  margin:25px auto;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 7px;
+}
+
+.avatar{
+  text-align: center;
+  padding-top:2.5rem;
+}
+
+.avatar img{
+  border-radius: 50%;
+  height:100px;
+}
+
+.detail{
+  padding:20px 0 10px 0;
+  text-align: center;
+}
+
+.name{
+  font-weight:600;
+  padding-bottom:8px;
+  font-size: 1.6rem;
+}
+
+.place{
+  color:hsl(75, 94%, 57%);
+}
+
+.work{
+  text-align: center;
+  padding-top:8px;
+  font-weight: 400;
+  font-size: 12px
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top:18px ;
+}
+
+.github{
+  margin-bottom:14px;
+}
+
+.github-btn{
+  padding:10px 7rem;
+  border-radius:5px;
+}
+
+.mentor{
+  margin-bottom:14px;
+}
+
+.mentor-btn{
+  padding:10px 5.4rem;
+  border-radius:5px;
+}
+
+.linkedin{
+  margin-bottom:14px;
+}
+
+.linkedin-btn{
+  padding:10px 6.7rem;
+  border-radius:5px;
+}
+
+.x{
+  margin-bottom:14px;
+}
+
+.x-btn{
+  padding:10px 8rem;
+  border-radius:5px;
+}
+
+.insta{
+  margin-bottom:14px;
+}
+
+.insta-btn{
+  padding:10px 6.5rem;
+  border-radius:5px;
+}
+
+.github-btn,.mentor-btn,.linkedin-btn,.x-btn,.insta-btn{
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-weight: 600;
+  border:none;
+}
+
+.github-btn:hover,.mentor-btn:hover,.linkedin-btn:hover,.x-btn:hover,.insta-btn:hover{
+  background-color:hsl(75, 94%, 57%);
+  color:black;
+  cursor: pointer;
+  transform: background-color 0.4s ease-in-out;
+}
+
+.creator{
+  text-align: center;
+  padding-top: 18px;
+  font-size: 12px;
+}
+
+.provider:hover,.receiver:hover{
+  color:hsl(75, 94%, 57%);
+}
