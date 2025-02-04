@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  max-width:600px;
+  min-height: 600px;
+  border:2px solid black;
+}
+
+/* Omelette Image */
+
+.image{
+  padding:2rem 2.5rem;
+}
+
+.image img{
+  width:100%;
+  object-fit: contain;
+}
+
+.title{
+  padding:0 2.5rem 2rem 2.5rem;
+}
+
+.title h1{
+  padding-bottom:1.2rem;
+}
+
+/* Preparation */
+
+.time{
+  border:1px solid rgb(218, 113, 130);
+  height:162px;
+  margin:0 2.5rem;
+  padding:20px;
+}
+
+.time h3{
+  padding:0px 10px 10px 20px;
+}
+
+.time div{
+  padding:0 3.5rem;
+}
+
+div li{
+  padding:5px 
+}
+
+/* Ingredients */
+
+.ingredients{
+  padding:2rem 2.5rem 1.5rem 2.5rem;
+}
+
+.ingredients div{
+  padding:0.8rem 1rem 0 1rem;
+}
+
+.line{
+  margin:0 2.5rem;
+  max-width:600px;
+  border-bottom:1.6px solid red;
+}
+
+/* Instructions */
+
+.instruct{
+  padding:2rem 2.5rem 1.5rem 2.5rem;
+}
+
+.instruct div{
+  padding:0.8rem 1rem 0 1rem;
+}
+
+.egg{
+  max-width:350px;
+  font-size:16px;
+  font-family: Outfit;
+}
+
+.pan{
+  max-width:490px;
+}
