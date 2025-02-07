@@ -7,12 +7,18 @@
 body{
   display: grid;
   place-items: center;
+  font-size:16px;
+  font-family: Outfit,serif;
+  background-color: #F5E7DA;
+  margin-top:5rem;
+  margin-bottom: 5rem;
 }
 
 .container{
-  max-width:600px;
-  min-height: 600px;
-  border:2px solid black;
+  max-width:680px;
+  min-height: 620px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 /* Omelette Image */
@@ -24,6 +30,7 @@ body{
 .image img{
   width:100%;
   object-fit: contain;
+  border-radius: 12px;
 }
 
 .title{
@@ -32,19 +39,31 @@ body{
 
 .title h1{
   padding-bottom:1.2rem;
+  font-family: Georgia,serif;
+  font-size: 32px;
+}
+
+.title p{
+  color:hsl(30, 10%, 34%);
+  font-weight: 600;
+  width:640px;
+  font-size:15px;
+  padding-right:20px;
 }
 
 /* Preparation */
 
 .time{
-  border:1px solid rgb(218, 113, 130);
   height:162px;
   margin:0 2.5rem;
   padding:20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 20px;
 }
 
-.time h3{
+h3{
   padding:0px 10px 10px 20px;
+  color:hsl(332, 51%, 32%);
 }
 
 .time div{
@@ -68,7 +87,17 @@ div li{
 .line{
   margin:0 2.5rem;
   max-width:600px;
-  border-bottom:1.6px solid red;
+  border-bottom:2px solid hsl(30, 18%, 87%);
+}
+
+ul li{
+  color:hsl(30, 10%, 34%);
+  font-weight: 600;
+}
+
+ul li::marker{
+  list-style-type: disc;
+  color:black;
 }
 
 /* Instructions */
@@ -81,12 +110,106 @@ div li{
   padding:0.8rem 1rem 0 1rem;
 }
 
-.egg{
-  max-width:350px;
-  font-size:16px;
+ol li::marker{
+  list-style-type: decimal;
+  color:hsl(14, 45%, 36%);
   font-family: Outfit;
+  font-weight: 600;
+  padding-right:8px;
 }
 
-.pan{
-  max-width:490px;
+.egg{
+  max-width:560px;
+  font-size:16px;
+  font-family: serif;
+}
+
+.add{
+  width:580px
+}
+
+.pan,.cook,.add,.fold,.enjoy{
+  font-size:16px;
+  font-family: serif;
+}
+
+ol li{
+  color:hsl(30, 10%, 34%);
+  font-weight: 600;
+}
+
+ol li strong{
+  color:black;
+}
+
+/* Nutrition */
+
+.nutrients{
+  padding:2rem 2.5rem 1.5rem 2.5rem;
+}
+
+.nutrients h2{
+  font-family: serif;
+  padding-bottom:20px;
+}
+
+.nutrients p{
+  color:hsl(30, 10%, 34%);
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom:10px;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+}
+
+.nut{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.nut p{
+  padding-right:5rem;
+  color:hsl(30, 10%, 34%);
+  font-weight: 600;
+  padding:8px 0 8px 1.2rem;
+}
+
+.nut p strong{
+  padding-right:7rem;
+  color:hsl(14, 45%, 36%);
+}
+
+#bottom{
+  border-bottom:none;
+}
+
+/*  Color  */
+
+h2{
+  color:hsl(14, 45%, 36%);
+}
+
+/*  Crreator  */
+
+.creator{
+  display: flex;
+  flex-direction: row;
+  padding-bottom:2rem;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.creator p a{
+  text-decoration: none;
+}
+
+.creator p a:hover{
+  color:hsl(332, 51%, 32%);
 }
