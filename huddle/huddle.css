@@ -1,0 +1,156 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Outline,serif;
+}
+
+body{
+  background-image: url("images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+}
+
+header{
+  margin:42px 0 48px 65px; 
+}
+
+.flex{
+  display: flex;
+  padding:0  0 0 5rem;
+}
+
+.flex article{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left:2.5rem;
+  padding-top:4rem;
+}
+
+h2{
+  color:white;
+  max-width:400px;
+  font-size:35px;
+}
+
+p{
+  color:white;
+  padding:1.2rem 0 1.2rem 0;
+  max-width:400px;
+  line-height: 22px;
+}
+
+.flex article div button{
+  padding:15px 65px;
+  border-radius: 30px;
+  border:none;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.67);
+  color: #674BAF;
+}
+
+.flex article div button:hover{
+  background-color:  hsl(300, 69%, 71%);
+  color:white;
+  cursor: pointer;
+}
+
+.logo{
+  padding-right:8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size:24px;
+  color:white;
+}
+
+.logo div{
+  border:2px solid white;
+  width:50px;
+  border-radius: 50%;
+  padding:8px 8px;
+  margin-right:1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.logo div:hover{
+  border-color:  hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+.creator{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.creator a{
+  text-decoration: none;
+}
+
+.provider,.receiver{
+  color:hsl(300, 69%, 71%);
+}
+
+.provider:hover,.receiver:hover{
+  text-decoration: underline;
+  color:white
+}
+
+@media screen and (max-width: 768px){
+  
+  header{
+    margin:48px 0 48px 0; 
+  }
+
+  .flex{
+    display: flex;
+    flex-direction: column;
+    padding:0  2rem 0 2rem;
+  }
+
+  .flex article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right:3rem;
+    padding-top:4rem;
+  }
+
+  h2{
+    text-align: center;
+    width:350px;
+    font-size:30px;
+  }
+
+  p{
+    text-align: center;
+    max-width: 315px;  
+    font-size: 1.2rem;
+    line-height: 28px;
+    font-family: Outline;
+  }
+
+  .flex article div button{
+    padding:1rem 6rem;
+  }
+
+  .logo{
+    margin-top:30px;
+    display: flex;
+    justify-content:center;
+    padding-top:2.5rem;
+    padding-left:9rem;
+
+  }
+
+  .creator{
+    padding-top:1rem;
+  }
+
+  .provider,.receiver{
+    font-size:1rem;
+  }
+}
